@@ -16,8 +16,8 @@ namespace ContasApp.Data.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //definindo o tipo de banco de dados do projeto
-            //optionsBuilder.UseSqlServer("Data Source=NETO\\SQLEXPRESS;Initial Catalog=BDContasApp;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
-            optionsBuilder.UseSqlServer("Data Source=SQL8005.site4now.net,1433;Initial Catalog=db_a99f04_bdcontasapp;User Id=db_a99f04_bdcontasapp_admin;Password=Jesus@2023;");
+            optionsBuilder.UseSqlServer("Data Source=NETO\\SQLEXPRESS;Initial Catalog=BDContasApp;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            //optionsBuilder.UseSqlServer("Data Source=SQL8005.site4now.net,1433;Initial Catalog=db_a99f04_bdcontasapp;User Id=db_a99f04_bdcontasapp_admin;Password=Jesus@2023;");
         }
 
         //Regra 3: Sobrescrever o método OnModelCreating
